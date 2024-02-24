@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Brunch.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Wordle.unity
+    guid: 05c83bd124a1c114b869859697d36663
+  - enabled: 1
+    path: Assets/Scenes/Vigenere.unity
+    guid: 4d335db820aacad4b9fcfb1c070c3524
+  - enabled: 1
+    path: Assets/Scenes/Braille.unity
+    guid: fa5ae1dfc2cc5fa47bdc4fb90db5dea9
   m_configObjects: {}
