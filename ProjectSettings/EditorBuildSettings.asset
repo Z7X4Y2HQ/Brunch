@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Braille.unity
     guid: fa5ae1dfc2cc5fa47bdc4fb90db5dea9
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: a90466c11997dca45b164f2141e4c649
+  - enabled: 1
+    path: Assets/Scenes/GameWon.unity
+    guid: 6644a437c1fff5345bb0c4db5f68c392
   m_configObjects: {}

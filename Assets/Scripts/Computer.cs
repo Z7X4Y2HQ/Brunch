@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class Computer : MonoBehaviour
 {
-    public TMP_Text computerClose;
     public GameObject WordleCam;
     public GameObject InteractE;
     public Animator levelLoader;
@@ -20,7 +19,6 @@ public class Computer : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        computerClose.text = "Computer Close : Yes";
         InteractE.SetActive(true);
         inCompRange = true;
     }
@@ -39,7 +37,6 @@ public class Computer : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        computerClose.text = "Computer Close : No";
         InteractE.SetActive(false);
         inCompRange = false;
     }

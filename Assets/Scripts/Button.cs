@@ -99,7 +99,7 @@ public class Button : MonoBehaviour
         levelLoader.Play("FadeInBlack");
         yield return new WaitForSeconds(1.5f);
         DisplayWord.charIndex = 0;
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Brunch");
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
@@ -111,7 +111,7 @@ public class Button : MonoBehaviour
         player.transform.position = Computer.playerPosition;
         player.transform.eulerAngles = Computer.playerDirection;
         player.GetComponent<CharacterController>().enabled = true;
-        GameObject WorkRoom = GameObject.Find("Work Room");
+        GameObject WorkRoom = GameObject.Find("WorkBarrier");
         if (IdentifyWord.gameState == "lose")
         {
             WorkRoom.SetActive(false);
