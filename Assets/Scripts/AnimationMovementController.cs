@@ -54,7 +54,7 @@ public class AnimationMovementController : MonoBehaviour
     }
     IEnumerator stopDrinkingAnim()
     {
-        yield return new WaitForSeconds(9.3f);
+        yield return new WaitForSeconds(7f);
         animator.SetBool("isDrink", false);
     }
     void handleGravity()

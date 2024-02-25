@@ -1,0 +1,257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f437941fa6ee4e4479a4e51ab0f1eefb, type: 3}
+  m_Name: PhysicsSettingsStore
+  m_EditorClassIdentifier: 
+  colliderSettings: []
+  clothSettings: []
+  abstractColliderSettings:
+  - transform: {fileID: 0}
+    isEnabled: 1
+    localPosition: {x: -0.000045087774, y: 0.23492742, z: -0.009696119}
+    localRotation: {x: -0.028767765, y: 0.000000015803375, z: 0.00000010803998, w: -0.9995861}
+    height: 0.46607274
+    radius: 0.064119704
+    name: CC_Base_L_Calf_Capsule
+    axis: 1
+    colliderTypes: 8
+    nativeRef: {fileID: 0}
+    magicaRef: {fileID: 0}
+    dynamicRef: {fileID: 0}
+  - transform: {fileID: 0}
+    isEnabled: 1
+    localPosition: {x: -0.0015780169, y: 0.23456477, z: 0.018640477}
+    localRotation: {x: -0.019458424, y: 0.0053415857, z: -0.013424067, w: 0.99970627}
+    height: 0.5642493
+    radius: 0.07071281
+    name: CC_Base_L_Thigh_Capsule
+    axis: 1
+    colliderTypes: 8
+    nativeRef: {fileID: 0}
+    magicaRef: {fileID: 0}
+    dynamicRef: {fileID: 0}
+  - transform: {fileID: 0}
+    isEnabled: 1
+    localPosition: {x: 0.000080858685, y: 0.23491725, z: -0.009495298}
+    localRotation: {x: -0.028764492, y: -0.0000000045401958, z: -0.000000043875943,
+      w: -0.9995862}
+    height: 0.46607277
+    radius: 0.06399452
+    name: CC_Base_R_Calf_Capsule
+    axis: 1
+    colliderTypes: 8
+    nativeRef: {fileID: 0}
+    magicaRef: {fileID: 0}
+    dynamicRef: {fileID: 0}
+  - transform: {fileID: 0}
+    isEnabled: 1
+    localPosition: {x: 0.0013281103, y: 0.23455954, z: 0.018670257}
+    localRotation: {x: -0.019591602, y: 0.004817197, z: 0.013626711, w: 0.99970365}
+    height: 0.56419605
+    radius: 0.070387825
+    name: CC_Base_R_Thigh_Capsule
+    axis: 1
+    colliderTypes: 8
+    nativeRef: {fileID: 0}
+    magicaRef: {fileID: 0}
+    dynamicRef: {fileID: 0}
+  - transform: {fileID: 0}
+    isEnabled: 1
+    localPosition: {x: -0.0012157967, y: 0.04531454, z: 0.011921139}
+    localRotation: {x: -0.000000026077023, y: -0.000000050040835, z: 0.00000008800991,
+      w: 1}
+    height: 0.09572019
+    radius: 0.027483882
+    name: CC_Base_L_Hand_Capsule
+    axis: 1
+    colliderTypes: 8
+    nativeRef: {fileID: 0}
+    magicaRef: {fileID: 0}
+    dynamicRef: {fileID: 0}
+  - transform: {fileID: 0}
+    isEnabled: 1
+    localPosition: {x: 0.000013213762, y: 0.110316485, z: 0.000019552419}
+    localRotation: {x: 0.000000017695125, y: -0.00000007656306, z: 0.00000013178574,
+      w: 1}
+    height: 0.2971807
+    radius: 0.034152012
+    name: CC_Base_L_Forearm_Capsule
+    axis: 1
+    colliderTypes: 8
+    nativeRef: {fileID: 0}
+    magicaRef: {fileID: 0}
+    dynamicRef: {fileID: 0}
+  - transform: {fileID: 0}
+    isEnabled: 1
+    localPosition: {x: -0.0125700105, y: 0.102720976, z: -0.0055890423}
+    localRotation: {x: -0.00000005215404, y: -0.000000064377645, z: 0.000000016676488,
+      w: 1}
+    height: 0.32234538
+    radius: 0.04645426
+    name: CC_Base_L_Upperarm_Capsule
+    axis: 1
+    colliderTypes: 8
+    nativeRef: {fileID: 0}
+    magicaRef: {fileID: 0}
+    dynamicRef: {fileID: 0}
+  - transform: {fileID: 0}
+    isEnabled: 1
+    localPosition: {x: -0.0000011658717, y: 0.07425883, z: 0.0075192926}
+    localRotation: {x: 0.00000009685753, y: 0.0000000147546615, z: 0.0000000032909528,
+      w: 1}
+    height: 0.19308096
+    radius: 0.06046098
+    name: CC_Base_Head_Capsule
+    axis: 1
+    colliderTypes: 8
+    nativeRef: {fileID: 0}
+    magicaRef: {fileID: 0}
+    dynamicRef: {fileID: 0}
+  - transform: {fileID: 0}
+    isEnabled: 1
+    localPosition: {x: -0.00000020980859, y: 0.019905584, z: 0.0024642313}
+    localRotation: {x: -0.7908081, y: -0.000000058679387, z: 0.00000006833751, w: 0.61206424}
+    height: 0.15027459
+    radius: 0.048611183
+    name: CC_Base_NeckTwist01_Capsule
+    axis: 1
+    colliderTypes: 8
+    nativeRef: {fileID: 0}
+    magicaRef: {fileID: 0}
+    dynamicRef: {fileID: 0}
+  - transform: {fileID: 0}
+    isEnabled: 1
+    localPosition: {x: 0.0012176468, y: -0.12721376, z: 0.0153480675}
+    localRotation: {x: 0.000000029802319, y: -0.70710695, z: -0.00000004470348, w: 0.70710677}
+    height: 0.39129248
+    radius: 0.10874056
+    name: CC_Base_NeckTwist01_Capsule(0)
+    axis: 2
+    colliderTypes: 8
+    nativeRef: {fileID: 0}
+    magicaRef: {fileID: 0}
+    dynamicRef: {fileID: 0}
+  - transform: {fileID: 0}
+    isEnabled: 1
+    localPosition: {x: 0.07495742, y: -0.123696014, z: 0.08592767}
+    localRotation: {x: -0.33405444, y: -0.6232236, z: 0.3340545, w: 0.62322354}
+    height: 0.28236818
+    radius: 0.048533607
+    name: CC_Base_NeckTwist01_Capsule(1)
+    axis: 1
+    colliderTypes: 8
+    nativeRef: {fileID: 0}
+    magicaRef: {fileID: 0}
+    dynamicRef: {fileID: 0}
+  - transform: {fileID: 0}
+    isEnabled: 1
+    localPosition: {x: -0.0749671, y: -0.12367934, z: 0.085908554}
+    localRotation: {x: -0.33405676, y: -0.62322235, z: 0.33405676, w: 0.6232223}
+    height: 0.28256315
+    radius: 0.048561677
+    name: CC_Base_NeckTwist01_Capsule(2)
+    axis: 1
+    colliderTypes: 8
+    nativeRef: {fileID: 0}
+    magicaRef: {fileID: 0}
+    dynamicRef: {fileID: 0}
+  - transform: {fileID: 0}
+    isEnabled: 1
+    localPosition: {x: 0.0014337938, y: 0.045466524, z: 0.009257014}
+    localRotation: {x: 0.000000067055204, y: 0.00000010914456, z: 0.000000028806635,
+      w: 1}
+    height: 0.09573323
+    radius: 0.029775899
+    name: CC_Base_R_Hand_Capsule
+    axis: 1
+    colliderTypes: 8
+    nativeRef: {fileID: 0}
+    magicaRef: {fileID: 0}
+    dynamicRef: {fileID: 0}
+  - transform: {fileID: 0}
+    isEnabled: 1
+    localPosition: {x: -0.000020058027, y: 0.11025416, z: 0.000025666313}
+    localRotation: {x: 0.000000020023423, y: 0.00000010554316, z: 0.000000093276824,
+      w: 1}
+    height: 0.29702887
+    radius: 0.03413122
+    name: CC_Base_R_Forearm_Capsule
+    axis: 1
+    colliderTypes: 8
+    nativeRef: {fileID: 0}
+    magicaRef: {fileID: 0}
+    dynamicRef: {fileID: 0}
+  - transform: {fileID: 0}
+    isEnabled: 1
+    localPosition: {x: 0.01256611, y: 0.10279074, z: -0.005587594}
+    localRotation: {x: -0.000000022351736, y: -0.00000008579807, z: -0.000000014329995,
+      w: -1}
+    height: 0.32248142
+    radius: 0.046451855
+    name: CC_Base_R_Upperarm_Capsule
+    axis: 1
+    colliderTypes: 8
+    nativeRef: {fileID: 0}
+    magicaRef: {fileID: 0}
+    dynamicRef: {fileID: 0}
+  - transform: {fileID: 0}
+    isEnabled: 1
+    localPosition: {x: 0.0000023323205, y: 0.16886355, z: -0.0036899336}
+    localRotation: {x: -0.036970165, y: -0.70613974, z: 0.036970105, w: 0.7061397}
+    height: 0.2784296
+    radius: 0.12951888
+    name: CC_Base_Spine01_Capsule(1)
+    axis: 2
+    colliderTypes: 8
+    nativeRef: {fileID: 0}
+    magicaRef: {fileID: 0}
+    dynamicRef: {fileID: 0}
+  - transform: {fileID: 0}
+    isEnabled: 1
+    localPosition: {x: 0.07044431, y: 0.052961897, z: -0.010071469}
+    localRotation: {x: 0.2559344, y: 0.048972614, z: 0.07015694, w: 0.9629005}
+    height: 0.37484905
+    radius: 0.081389576
+    name: CC_Base_Hip_Capsule
+    axis: 1
+    colliderTypes: 8
+    nativeRef: {fileID: 0}
+    magicaRef: {fileID: 0}
+    dynamicRef: {fileID: 0}
+  - transform: {fileID: 0}
+    isEnabled: 1
+    localPosition: {x: -0.07341997, y: 0.052897245, z: -0.009466757}
+    localRotation: {x: 0.26056036, y: -0.0030959572, z: -0.04692372, w: 0.9643116}
+    height: 0.37484905
+    radius: 0.081389576
+    name: CC_Base_Hip_Capsule(0)
+    axis: 1
+    colliderTypes: 8
+    nativeRef: {fileID: 0}
+    magicaRef: {fileID: 0}
+    dynamicRef: {fileID: 0}
+  gizmoState:
+    gizmosEnabled: 0
+    capsuleEnabled: 0
+    clothEnabled: 0
+    sphereEnabled: 0
+    boxEnabled: 0
+    magicaCapsuleEnabled: 0
+    magicaCapsuleIconEnabled: 0
+    magicaClothEnabled: 0
+    magicaClothIconEnabled: 0
+    magicaSphereEnabled: 0
+    magicaSphereIconEnabled: 0
+    magicaPlaneEnabled: 0
+    magicaPlaneIconEnabled: 0
+    iconSize: 0
+    iconsEnabled: 0
