@@ -7,6 +7,7 @@ public class Pill : MonoBehaviour
 {
     public GameObject InteractE;
     public GameObject workPlace;
+    public Animator playerAnimator;
     private void OnTriggerEnter(Collider other)
     {
         InteractE.SetActive(true);
@@ -16,6 +17,7 @@ public class Pill : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.E))
         {
+            playerAnimator.SetBool("isDrink", true);
             gameObject.SetActive(false);
             workPlace.SetActive(false);
             InteractE.SetActive(false);

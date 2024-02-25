@@ -34,15 +34,29 @@ public class AnimationMovementController : MonoBehaviour
     void Update()
     {
         handleGravity();
-        handleAnimation();
-        handleRotation();
+        if (!animator.GetBool("isDrink"))
+        {
+            handleRotation();
+        }
 
-        if (isMovementPressed)
+        handleAnimation();
+
+        if (animator.GetBool("isDrink"))
+        {
+            StartCoroutine(stopDrinkingAnim());
+        }
+
+
+        if (isMovementPressed && !animator.GetBool("isDrink"))
         {
             characterController.Move(moveDirection * Time.deltaTime * 3.5f);
         }
     }
-
+    IEnumerator stopDrinkingAnim()
+    {
+        yield return new WaitForSeconds(9.3f);
+        animator.SetBool("isDrink", false);
+    }
     void handleGravity()
     {
         if (characterController.isGrounded)
