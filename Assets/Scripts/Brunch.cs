@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Playables;
 
 public class Brunch : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class Brunch : MonoBehaviour
     public TMP_Text daysNumText;
     public TMP_Text lifeNumText;
     public TMP_Text puzzleNumText;
+    public PlayableDirector IntroScene;
+    private bool timelineplayed = false;
 
 
     private void Update()
@@ -26,6 +29,12 @@ public class Brunch : MonoBehaviour
         workNumText.text = "Work : " + work.ToString();
         daysNumText.text = "Day : " + day.ToString();
         lifeNumText.text = "Life : " + life.ToString();
+
+        if (puzzle == 0 && work == 0 && day == 1 && life == 2 && !timelineplayed)
+        {
+            IntroScene.Play();
+            timelineplayed = true;
+        }
 
         if (day == 8)
         {

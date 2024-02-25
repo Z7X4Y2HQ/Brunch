@@ -9,7 +9,7 @@ public class IdentifyWord : DisplayWord
     private string[] wordsToGuessList = {  "plank", "crumb", "blush", "flint", "brine", "quirk", "glyph", "chasm", "bravo", "prism",
     "gusto", "blend", "knurl", "fluke", "hazel", "spire", "plume", "slant", "torch", "snare",
     "glint", "nymph", "tinge", "frown", "quail", "surge", "snarl", "brawn", "crust",
-    "glaze", "wince", "scowl", "zebra", "smirk", "truce", "scamp", "vortex", "plaid", "flung",
+    "glaze", "wince", "scowl", "zebra", "smirk", "truce", "scamp", "plaid", "flung",
     "yacht", "blaze", "tryst", "venom", "flora", "cruxy", "pluck", "fjord", "grime", "flail",
     "joust", "gloat", "knave", "prong", "realm", "clasp", "fable", "mirth", "query",
     "plumb", "briny", "fluff", "giddy", "spark", "wring", "squash", "hunch", "skulk", "hovel",
