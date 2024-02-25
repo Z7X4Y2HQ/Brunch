@@ -39,7 +39,7 @@ public class AnimationMovementController : MonoBehaviour
 
         if (isMovementPressed)
         {
-            characterController.Move(moveDirection * Time.deltaTime * 3f);
+            characterController.Move(moveDirection * Time.deltaTime * 3.5f);
         }
     }
 

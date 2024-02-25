@@ -1,0 +1,17 @@
+When solving the Vigenere Cipher, the player is given an encrypted message, a key, and a table.
+To decrypt the message, the player will need to use the key word to correspond to the encrypted message to create a keystream.
+If the keyword is 'key' and the encrypted message is 'hello,' for example, then the keystream would look like this: rijvs = keyke.
+The player then takes the first letter of the keystream and the first letter of the begins to solve.
+The top row of letters should be used for the letters of the keystream and the letters in the first column should be used for the letters of the decrypted message.
+The letter that is found from the two where they meet is the encrypted letter.
+
+Example:
+
+key: key
+encrypted message: rijvs
+
+
+*** INSERT MATRIX IMAGE HERE *** 
+
+
+decrypted message: hello

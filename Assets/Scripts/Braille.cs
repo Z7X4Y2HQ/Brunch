@@ -17,6 +17,11 @@ public class Braille : MonoBehaviour
     {
         braille[Brunch.day - 1].SetActive(true);
 
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            ValidateInput();
+        }
+
         if (timer.time == 0)
         {
             tryYourLuck.SetActive(false);

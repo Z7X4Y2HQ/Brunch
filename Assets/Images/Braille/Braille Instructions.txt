@@ -1,0 +1,6 @@
+Two pictures will be given.
+First picture is Dot Pattern picture. In this picture all letters and their respective dot pattern will be given.
+Second picture is Color Pattern picture. In this picture, there will be pattern similar with the dot picture but colors will be used instead and no letters will be provided.
+So with the help of dot pattern picture you have to guess the character of color pattern.
+Once you guess all the color patterns letters, a sentence will be formed.
+Write the sentence to solve the puzzle.

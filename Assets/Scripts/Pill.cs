@@ -18,6 +18,7 @@ public class Pill : MonoBehaviour
         {
             gameObject.SetActive(false);
             workPlace.SetActive(false);
+            InteractE.SetActive(false);
         }
     }
 

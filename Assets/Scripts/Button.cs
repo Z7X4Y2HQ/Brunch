@@ -13,6 +13,8 @@ public class Button : MonoBehaviour
     public GameObject puzzleMenu;
     public GameObject difficulties;
     public Animator levelLoader;
+    public GameObject LoadingScreen;
+    public UnityEngine.UI.Slider slider;
     public Currency currency;
     public Timer timer;
     public UnityEngine.UI.Button moveForwardButton;
@@ -99,13 +101,27 @@ public class Button : MonoBehaviour
         levelLoader.Play("FadeInBlack");
         yield return new WaitForSeconds(1.5f);
         DisplayWord.charIndex = 0;
-        SceneManager.LoadScene("Brunch");
+        StartCoroutine(LoadAsynchronously("Brunch"));
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
+    IEnumerator LoadAsynchronously(string SceneName)
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync(SceneName);
+
+        LoadingScreen.SetActive(true);
+
+        while (!operation.isDone)
+        {
+            float progress = Mathf.Clamp01(operation.progress / .9f);
+            slider.value = progress;
+            yield return null;
+        }
+    }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+
         GameObject player = GameObject.FindWithTag("Player");
         player.GetComponent<CharacterController>().enabled = false;
         player.transform.position = Computer.playerPosition;

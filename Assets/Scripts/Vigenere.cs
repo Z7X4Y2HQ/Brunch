@@ -21,6 +21,11 @@ public class Vigenere : MonoBehaviour
         encryptedMessageText.text = "Encrypted Message : " + encryptedMessage[Brunch.day - 1];
         keyText.text = "Key : " + key[Brunch.day - 1];
 
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            ValidateInput();
+        }
+
         if (timer.time == 0)
         {
             tryYourLuck.SetActive(false);

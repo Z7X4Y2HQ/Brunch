@@ -6,15 +6,16 @@ using System;
 
 public class IdentifyWord : DisplayWord
 {
-    private string[] wordsToGuessList = { "bogle", "scram", "hello", "dodge", "seven", "apple", "chair", "house", "table", "river", "dream", "light", "mouse", "happy", "beach",
-    "music", "sunny", "cloud", "books", "night", "stars", "smile", "grass", "queen", "kitty",
-    "ocean", "peace", "heart", "sugar", "storm", "fairy", "magic", "trick", "bread", "feast",
-    "green", "earth", "water", "flame", "crown", "wings", "cloud", "mount", "money", "dream",
-    "juice", "candy", "cheer", "salsa", "dance", "party", "happy", "funny", "laugh",
-    "jokes", "snack", "dream", "bloom", "wheat", "honey", "sunny", "light", "shine", "globe",
-    "space", "moon", "stars", "night", "magic", "spell", "music", "dance", "dream", "cloud",
-    "storm", "peace", "heart", "smile", "spark", "color", "peace", "unity", "brave", "smart",
-    "swift", "quick", "power", "magic", "heart", "peace", "dream", "happy", "smile", "music", "sweet", "bliss", "alive", "calm", "charm", "clean", "fresh", "quiet" };
+    private string[] wordsToGuessList = {  "plank", "crumb", "blush", "flint", "brine", "quirk", "glyph", "chasm", "bravo", "prism",
+    "gusto", "blend", "knurl", "fluke", "hazel", "spire", "plume", "slant", "torch", "snare",
+    "glint", "nymph", "tinge", "frown", "quail", "surge", "snarl", "brawn", "crust",
+    "glaze", "wince", "scowl", "zebra", "smirk", "truce", "scamp", "vortex", "plaid", "flung",
+    "yacht", "blaze", "tryst", "venom", "flora", "cruxy", "pluck", "fjord", "grime", "flail",
+    "joust", "gloat", "knave", "prong", "realm", "clasp", "fable", "mirth", "query",
+    "plumb", "briny", "fluff", "giddy", "spark", "wring", "squash", "hunch", "skulk", "hovel",
+    "vexed", "thump", "knoll", "smock", "wrist", "plump", "braid", "chive", "glade",
+    "quash", "clime", "swirl", "chafe", "flume", "glide", "oxide", "grove", "blimp", "alias",
+    "frail", "mango", "lunge", "glint", "abode", "scope", "prism", "tramp", "stoic", "drips" };
     private string actualWord = "";
     public TMP_Text WinLoseStatusText;
     public TMP_Text triesText;
